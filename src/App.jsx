@@ -1,10 +1,9 @@
-import { useState } from "react";
-import { invoke } from "@tauri-apps/api/tauri";
+import { Tldraw } from "@tldraw/tldraw"
 
 function App() {
   return (
     <div className="container">
-      <h1>Welcome to Tauri!</h1>
+      <Tldraw />
     </div>
   );
 }
