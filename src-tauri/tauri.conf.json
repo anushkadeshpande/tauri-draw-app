@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "tauri-draw-app",
-    "version": "0.0.0"
+    "version": "../package.json"
   },
   "tauri": {
     "allowlist": {
@@ -15,12 +15,15 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "dialog": {
+        "all": true
       }
     },
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.anushka.dev",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -36,7 +39,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-draw-app",
+        "title": "DrawIt",
         "width": 800,
         "height": 600
       }
