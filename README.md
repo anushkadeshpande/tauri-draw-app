@@ -28,7 +28,15 @@ npm run tauri dev
 
 ### To build an executable:
 ```
-nppm run tauri build
+npm run tauri build
+```
+
+After successful build, you should see the following output:
+
+```
+Finished 2 bundles at:
+{PATH}\tauri-draw-app\src-tauri\target\release\bundle\msi\tauri-draw-app_0.0.0_x64_en-US.msi   
+{PATH}\tauri-draw-app\src-tauri\target\release\bundle\nsis\tauri-draw-app_0.0.0_x64-setup.exe  
 ```
 
 <hr />
