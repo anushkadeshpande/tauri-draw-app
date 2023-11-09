@@ -1,5 +1,9 @@
 # Tauri + React
 
+## App Preview:
+![image](https://github.com/anushkadeshpande/tauri-draw-app/assets/53345232/9077fd25-05b8-4746-abed-98551df82c9c)
+
+
 ## Tauri setup:
 
 ### Rust installation:
